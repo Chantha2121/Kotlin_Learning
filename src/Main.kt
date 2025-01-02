@@ -12,4 +12,9 @@ fun main() {
         println("Hi")
     }
     println(name)
+
+    greeting = "hello"
+    val geetingToPrint = if (greeting !=null) greeting else "Hi"
+    println(geetingToPrint)
+    println(name)
 }
